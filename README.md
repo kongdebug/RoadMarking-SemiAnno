@@ -1,2 +1,2 @@
 # Anything-Rendering
-Segment-Anything + PaddleRendering. Let's renderanything.
+Segment-Anything + PaddleRendering. Let's render anything.
