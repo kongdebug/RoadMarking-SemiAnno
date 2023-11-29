@@ -1,0 +1,7 @@
+opencv-python
+pycocotools 
+matplotlib
+onnxruntime
+onnx
+labelme==5.3.1
+scikit-image==0.19.3
