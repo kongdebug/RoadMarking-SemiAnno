@@ -59,7 +59,7 @@ python semi-anno\pointsjson2masks.py --json_dir $json_dir$ --output_dir $output_
     - `output_dir`: 根据标注点自动生成语义分割掩膜json文件保存的文件夹，需要与要标注的图像在同一文件夹
     - `labels`: 标注类别文件的路径， 需要为`.txt`文件且第一行为'_background_'
     - `vis_dir`: 掩膜结果可视化保存路径
-    - `annotation_dir`: 掩膜标签影像，单通道，可以直接用于[PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg)与[]()这两个主流语义分割模型仓库
+    - `annotation_dir`: 掩膜标签影像，单通道，可以直接用于[PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg)与[MmSeg](https://github.com/open-mmlab/mmsegmentation)这两个主流语义分割模型仓库
     - `ext`: 待标注的图像的后缀
     - `model_type`: 根据点自动化生成掩膜的模型类型，与下载的权重类型对应
     - `patch_size`: 即以标注的关键点为中心，从完整图像中切割图像块传入SAM-HQ模型中的图像块大小
